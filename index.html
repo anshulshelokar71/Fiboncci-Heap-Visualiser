@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Heap Exploration</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --background-color: #f4f6f7;
+            --text-color: #2c3e50;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .main-content {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-family: 'Righteous', cursive;
+            color: var(--primary-color);
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: var(--text-color);
+            font-size: 1.1rem;
+            opacity: 0.7;
+        }
+
+        .navigation {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-description {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-description:hover {
+            background-color: #2980b9;
+            transform: translateY(-3px);
+        }
+
+        .btn-pseudocode {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+
+        .btn-pseudocode:hover {
+            background-color: #27ae60;
+            transform: translateY(-3px);
+        }
+
+        .btn-visualization {
+            background-color: #9b59b6;
+            color: white;
+        }
+
+        .btn-visualization:hover {
+            background-color: #8e44ad;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header">
+                <h1>Fibonacci Heaps</h1>
+                <p>Explore the Fascinating World of Advanced Data Structures</p>
+            </div>
+            <div class="navigation">
+                <a href="description.html" class="btn btn-description">Description</a>
+                <a href="pseudo.html" class="btn btn-pseudocode">Pseudocodes</a>
+                <a href="visualise.html" class="btn btn-visualization">Visualization</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
